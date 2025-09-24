@@ -1,1 +1,3 @@
-# sign_up_form
+# Sign Up Form
+
+This is a simple exploration of the creation and styling of a form.
