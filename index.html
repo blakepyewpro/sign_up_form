@@ -8,26 +8,61 @@
 </head>
 <body>
   <div id="banner">
-    <div id="logo"></div>
-    <div id="footer"></div>
+    <div id="logo">
+      <img src="./assets/odin-lined.png">
+      <h1>ODIN</h1>
+    </div>
+    <div id="footer">
+      <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Hailie West</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+    </div>
   </div>
   <div id="form-section">
     <header>
-      <h1>
-
-      </h1>
+      <h2>
+        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started. 
+      </h2>
+      <h2>
+        You <em>know</em> you want to.
+      </h2>
     </header>
     <form action="" method="post">
-      <div class="form-row">
-        <div class="form-input">
-          <label for="first-name">FIRST NAME</label>
-          <input type="text" name="first-name" id="first-name">
+      <div id="form-box">
+        <h3>Let's do this!</h3>
+        <div class="form-row">
+          <div class="form-input">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" name="first-name" id="first-name">
+          </div>
+          <div class="form-input">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" name="last-name" id="last-name"></div>
         </div>
-        <div class="form-input"></div>
+        <div class="form-row">
+          <div class="form-input">
+            <label for="user-mail">EMAIL</label>
+            <input type="email" name="user-mail" id="user-mail">
+          </div>
+          <div class="form-input">
+            <label for="user-phone">PHONE NUMBER</label>
+            <input type="tel" name="user-phone" id="user-phone">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-input">
+            <label for="user-pass">PASSWORD</label>
+            <input type="password" name="user-pass" id="user-pass">
+          </div>
+          <div class="form-input">
+            <label for="pass-confirm">CONFIRM PASSWORD</label>
+            <input type="password" name="pass-confirm" id="pass-confirm">
+          </div>
+        </div>
       </div>
-      <div class="form-row"></div>
-      <div class="form-row"></div>
+      <button type="submit">Create Account</button>
     </form>
+    <p>
+      Already have an account? <a href="">Log in</a>
+    </p>
   </div>
 </body>
 </html>
