@@ -2,3 +2,67 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  display: flex;
+  background-color: rgb(240, 240, 240);
+}
+
+div#banner, div#form-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+div#banner {
+  background-image: url("./assets/green_leaves.jpeg");
+  justify-content: space-between;
+  color: white;
+}
+
+div#logo {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  margin-top: 20vh;
+  width: 28vw;
+}
+
+div#footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vh;
+}
+
+div#footer a:link, div#footer a:visited {
+  color: white;
+}
+
+div#logo img {
+  height: 80%;
+}
+
+div#form-section header {
+  margin-left: 3%;
+}
+
+header h2:nth-child(1) {
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+}
+
+div#form-box {
+  background-color: white;
+  width: 100%;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+
+form button, div#form-section p {
+  margin-left: 3%;
+}
