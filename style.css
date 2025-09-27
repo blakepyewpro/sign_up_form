@@ -37,7 +37,7 @@ div#logo {
   justify-content: center;
   align-items: center;
   height: 9em;
-  margin-top: 19vh;
+  margin-top: 25vh;
   width: 28vw;
 }
 
@@ -107,7 +107,17 @@ div.form-input label {
 div.form-input input {
   height: 3vh;
   border-radius: 5px;
-  border: 1px solid #E5E7EB
+  border: 1px solid #E5E7EB;
+  padding: 2px 5px;
+}
+
+div.form-input input:focus {
+  outline: 1px solid rgb(0, 47, 255);
+  box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+div.form-input input:invalid {
+  border-color: rgb(230, 0, 0);
 }
 
 form button, div#form-section p {
